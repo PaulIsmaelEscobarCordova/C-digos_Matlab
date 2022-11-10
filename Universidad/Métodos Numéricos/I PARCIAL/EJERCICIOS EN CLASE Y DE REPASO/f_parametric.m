@@ -1,4 +1,4 @@
-%% Código que muestra una figura paramétrica
+% Código que muestra una figura paramétrica
 
 function f_parametric(R,r,a,b,n)
 t= linspace(a,b,n); 
@@ -11,4 +11,5 @@ title('Figura que Muestra una Gráfica paramétrica')
 grid on 
 
 end
+
 
