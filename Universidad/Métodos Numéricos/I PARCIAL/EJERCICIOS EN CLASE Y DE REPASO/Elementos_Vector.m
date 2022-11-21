@@ -199,5 +199,20 @@ while true
      
 end
 
+%%function x1 = msecante(f,x0,x1)
+
+fx= inline(f);
+
+x2=x1-fx(x1)*(x0-x1)/fx(x0)-fx(x1);
+
+while abs(x2-x1)>0.00001
+    x3= x2-fx(x2)*(x2-x1)/fx(x2)-fx(x1);
+    
+    x1=x2;
+    x2=x3;
+
+end
+disp('El cero de la funcion es: ')
+end
 
 

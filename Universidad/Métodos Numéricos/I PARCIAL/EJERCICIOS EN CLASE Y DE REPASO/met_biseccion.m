@@ -1,4 +1,4 @@
-%% PROGRAMA DE LA BISECCION
+% PROGRAMA DE LA BISECCION
 function c= met_biseccion(f,a,b)
 
 fx=inline(f)
