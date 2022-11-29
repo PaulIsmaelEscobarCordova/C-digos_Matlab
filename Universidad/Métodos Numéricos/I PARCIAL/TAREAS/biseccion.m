@@ -1,10 +1,11 @@
+
 function [Raiz fx] = Biseccion(fun,t)                                       %funcion biseccion, se tienen los datos de salida y los datos de entrada
 syms x
 f=inline(fun);                                                              %se utiliza el inline para pasar la funcion de una cadena a una expresion para poder realizar calculos ams adelante                                                 
 % GRAFICAMOS PRIMERO LA FUNCION PARA SABER LOS PUNTOS a&b
    
     h=ezplot(f,[-20:20])
-    axis([-20 20 -300 300])
+    axis([-20 20 -900 900])
     xlabel('Eje x'), ylabel('Eje y')
     title('GRAFICA DEL METODO DE BISECCION')
     grid on

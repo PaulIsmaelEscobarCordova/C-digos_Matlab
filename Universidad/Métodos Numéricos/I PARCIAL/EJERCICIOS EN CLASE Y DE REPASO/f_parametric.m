@@ -7,9 +7,8 @@ y=(R+r)*sin(t)-r*sin((R+r/r)*t);
 plot(x,y,'b-')
 axis('equal')
 xlabel('Eje x'), ylabel('Eje y')
-title('Figura que Muestra una Gráfica paramétrica')
+title('Figura que Muestra una Gráfica de una Circunferencia')
 grid on 
-
 end
 
 
